@@ -34,7 +34,7 @@ body {
   font-size: 1.3rem;
   color: #fff4e6;
   padding: 0 5px;
-  background: rgba(60, 47, 47, 0.4);
+  background: rgba(60, 47, 47, 0.6);
 }
 
 #showcase .button {
@@ -84,4 +84,11 @@ body {
 
 #section-c .box2 {
   background: #fff4e6;
+}
+
+@media (max-width: 568px) {
+  #section-c {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
